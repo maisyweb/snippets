@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+	<cfquery name="$1" datasource="#application.configBean.getDatasource()#" username="#application.configBean.getDBUsername(mode='readOnly')#" password="#application.configBean.getDBPassword(mode='readOnly')#">
+		$2
+	</cfquery>
+]]></content>
+	<tabTrigger>muraQry</tabTrigger>
+</snippet>

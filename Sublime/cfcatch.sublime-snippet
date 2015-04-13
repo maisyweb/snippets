@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+	<cftry>
+        <cfcatch type="any"><cfdump var="#cfcatch#"><cfabort></cfcatch>
+    </cftry>
+]]></content>
+	<tabTrigger>cfcatch</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+<cfqueryparam cfsqltype="${1:cf_sql_varchar}" value="$2"/>
+]]></content>
+	<tabTrigger>cfqueryparam</tabTrigger>
+</snippet>
